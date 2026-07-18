@@ -1,0 +1,137 @@
+SQL CLASS
+
+
+
+**What is Data:**
+
+It is the Collection of raw facts or observations
+
+
+
+dal      120
+
+sugar    50
+
+salt     30
+
+
+
+
+
+**What is Information**
+
+It is the Collection of Processed data
+
+
+
+Maths 90
+
+Science 75
+
+Social 60
+
+
+
+Total 225/300
+
+
+
+**What is Data Base?**
+
+It is a Container  which is stores the organized data electronic device is called as data base
+
+
+
+**Types of Data**
+
+1.Structed Data
+
+2.Un Structed Data
+
+3.Semi-Structed Data
+
+
+
+**What is Structed Data?**
+
+Structed data is northing but the data is in the form of rows and columns or in the form of tables
+
+
+
+**What is Un Structed Data?**
+
+The data is in the form of Audios, Videos, Images, Text is called as Un Structed data.
+
+
+
+**What is semi-Structed Data?**
+
+The Data can handle both Structed and unstructed data
+
+* Ex:JSON,HTML
+
+
+
+
+
+**What is Organizing?**
+
+The data which stores in an organized or in a planned way is called as Organizing
+
+
+
+**What is DBMS:**
+
+Data Base Management System: It is a software is used manage the database, create table to the database , insert data in to the table, update the data , delete the data and retrieve the data.
+
+
+
+**What is Software?**
+
+The Program which follows a set of instructions to do a specific task is called as software
+
+
+
+**Type of DBMS:**
+
+1.Hierirical DBMS
+
+2.Networking DBMS
+
+3.Relational DBMS
+
+4.Non Relational DBMS
+
+
+
+**What is RDBMS?**
+
+The data which stores in a structed way and establishes the relations between the tables.
+
+EX: MYSQL, SQLLITE, POSTGRE SQL, ORACLE.
+
+
+
+**What is NRDBMS:**
+
+The database which stores in the unstructed and semi structed data in it is called Non Relational DBMS
+
+EX: Cassandra, NOSQL and MongoDB.
+
+
+
+**What is MYSQL?**
+
+It is a software tool to manage the Relational database management System.
+
+
+
+**What is SQL?**
+
+It is a Programming language which handles
+
+
+
+
+
+_________________________________________________________________________18/07/2026_________________________________________________________________________
