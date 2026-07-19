@@ -97,7 +97,7 @@ Note: When do we use tuple or frozenset.
 
 &#x09;eg: founder of an company
 
-&#x09;eg:  
+
 
 
 

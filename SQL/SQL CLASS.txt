@@ -135,3 +135,131 @@ It is a Programming language which handles
 
 
 _________________________________________________________________________18/07/2026_________________________________________________________________________
+
+
+My SQL: 
+it is a software deals with rdbms with Sql.
+
+Data types:
+We are using 3 types of Data Types in MySQL.
+1.Numeric
+2.String
+3.Data and Time
+
+Numeric Data Type:
+It is used to store the numeric values in it.
+
+we are using 5 types of numeric Data types:
+
+1. TinyInt
+Signed values -128 to 127
+unsigned valued 0 to 255
+ex: Age and semsters
+
+Smallint:
+it stores the values in between  -32768 to +32767
+unsigned values is 65535
+ex: marks
+
+
+mediumint
+it is used to store the values in between -8.3 million to +8.3 million
+unsigned values is 0 to 16.6 million
+byte size is 3 bytes 
+
+ex: 
+
+
+int
+population in a city or town +2.1 billions
+unsigned value is 0 to 4.2 billion
+byte size is 4
+ex : prodectid, employeeid
+
+bigint:
+we can store upto -9.2 quintillion to +9.2
+unsigned values is o to 18.4 quintillion 
+byte size 8
+
+Float:
+we can used to store the decimal approximate values in 0 to 7
+ex: temperature, scientific calculations.
+
+Double:
+
+approximate range upto 15-16
+
+ex: engineering calculations
+
+Decimal:
+we can store the values using precision and scale
+decimal(p,s)
+ex:salary
+
+Sring datatypes
+it is a group or combination of characters is called as strings 
+
+1.Char()
+
+char(10)\
+'chandu'
+'chandu___'
+it is fixed length
+faster then varchar
+ex: phone number , adhaar number,pancard number
+it is stored in the from of '
+',""
+
+varchar()
+varchar(120)
+'uma'
+o/p:'uma'
+it stores only variables length memory efficient
+ex. names, gmails.
+
+3.Text()
+it used to store the paragraphs.
+ex. summaries , feed backs , gossips.
+ 
+4. Data & Time :
+
+it is used to store the date in the from of data and time.
+
+1. Data :
+	it is used to store only date.
+ex:date of birth and joining time
+
+2.time:
+it is used to store both date and time .
+ex Train bookings, and all other bookings 
+
+
+4. time stamp:
+	it is used to store the time with milliseconds
+ex: 	running race, login, 	and logouts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
