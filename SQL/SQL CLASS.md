@@ -1,4 +1,4 @@
-SQL CLASS
+# SQL CLASS
 
 
 
@@ -134,10 +134,11 @@ It is a Programming language which handles
 
 
 
-_________________________________________________________________________18/07/2026_________________________________________________________________________
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_18/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
-My SQL: 
+
+My SQL:
 it is a software deals with rdbms with Sql.
 
 Data types:
@@ -162,12 +163,14 @@ unsigned values is 65535
 ex: marks
 
 
+
 mediumint
 it is used to store the values in between -8.3 million to +8.3 million
 unsigned values is 0 to 16.6 million
-byte size is 3 bytes 
+byte size is 3 bytes
 
-ex: 
+ex:
+
 
 
 int
@@ -178,7 +181,7 @@ ex : prodectid, employeeid
 
 bigint:
 we can store upto -9.2 quintillion to +9.2
-unsigned values is o to 18.4 quintillion 
+unsigned values is o to 18.4 quintillion
 byte size 8
 
 Float:
@@ -197,13 +200,13 @@ decimal(p,s)
 ex:salary
 
 Sring datatypes
-it is a group or combination of characters is called as strings 
+it is a group or combination of characters is called as strings
 
 1.Char()
 
-char(10)\
+char(10)  
 'chandu'
-'chandu___'
+'chandu\_\_\_'
 it is fixed length
 faster then varchar
 ex: phone number , adhaar number,pancard number
@@ -220,23 +223,113 @@ ex. names, gmails.
 3.Text()
 it used to store the paragraphs.
 ex. summaries , feed backs , gossips.
- 
-4. Data & Time :
+
+4. Data \& Time :
 
 it is used to store the date in the from of data and time.
 
 1. Data :
-	it is used to store only date.
+it is used to store only date.
 ex:date of birth and joining time
 
 2.time:
 it is used to store both date and time .
-ex Train bookings, and all other bookings 
+ex Train bookings, and all other bookings
+
 
 
 4. time stamp:
-	it is used to store the time with milliseconds
-ex: 	running race, login, 	and logouts
+it is used to store the time with milliseconds
+ex: 	running race, login and logouts
+
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_20/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+## Commands:
+
+1.DDL(Data Definition Language):
+
+It is used to define or create, update, rename and delete the database or table is called DDL.
+
+
+
+Types of DDL:
+
+1.create: To create the database and tables
+
+Syntax:
+
+Create database databasename; #for database creation
+
+Create table Tablename; #for table creation
+
+
+
+2.Alter:
+
+It is used to add, update, rename and delete the column in a table.
+
+syntax:
+
+&#x09;1.alter table tablename add column columnname datatype;
+
+modify a column:
+
+&#x09;2.alter table tablename modify column columnname datatype;
+
+rename:
+
+&#x09;3.alter table tablename rename column columnname to columnname1;
+
+drop:
+
+&#x09;4.alter table tablename drop column columnname;
+
+
+
+2.DML(Data  Language):
+
+3.DQL(Data  Language):
+
+4.DCL(Data  Language):
+
+5.TCL( Language):
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

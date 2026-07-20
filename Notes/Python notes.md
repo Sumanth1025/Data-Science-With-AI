@@ -101,3 +101,63 @@ Note: When do we use tuple or frozenset.
 
 
 
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_20/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+
+
+# **Data Type conversion VS Data Type casting:**
+
+
+
+
+
+### Type Conversion:
+
+&#x09;The automatic assigning of data type when we perform operation between two different data types is called Type Conversion. Type conversion only possible between supportive data type.
+
+&#x09;
+
+
+
+### Type Casting:
+
+&#x09;Here the user change the data type of an object manually. We use data type function to type cast one data object into another data object.
+
+&#x09;Here also type casting can happen only between supportive objects.
+
+
+
+
+
+
+
+
+
+### Dynamically Typed :
+
+&#x09;Here we don't have to mention the type of the value we are passing them into our program, we can just pass the values and python automatically assigns data type to the based on the values.
+
+
+
+
+
+
+
+### range() and len() functions:
+
+#### &#x09;range():
+
+&#x09;		It is used to generate numbers. It takes three values start, stop and step.
+
+&#x09;	Syntax: range(start, stop, step)
+
+&#x09;	Start: From which number to generate.
+
+&#x09;	Stop: Until which number to generate.
+
+&#x09;	Step: How many values to jump.
+
