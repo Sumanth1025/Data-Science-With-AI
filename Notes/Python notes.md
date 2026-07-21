@@ -161,3 +161,131 @@ Note: When do we use tuple or frozenset.
 
 &#x09;	Step: How many values to jump.
 
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_21/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+## Mutable/changable and Immutable/non changable
+
+### Object:
+
+##### Mutable Object:
+
+&#x09;Object which can be edited after they created.
+
+##### Immutable Object:
+
+&#x09;Object which can't be edited after they created.
+
+
+
+Immutable:					Mutable:
+
+Integer						List
+
+float						set
+
+complex						dictionary
+
+tuple
+
+string
+
+
+
+Note:
+
+&#x09;Operator we use to check Immutable and Mutable is +=.
+
+&#x09;
+
+Input() function:
+
+&#x09;This function is used to pass the values into my program after the execution of the program.
+
+
+
+Operators:
+
+&#x09;operator is a symbol that performs some action between one or more then one objects.
+
+Types of operators:
+
+
+
+Arithmetic:
+
+&#x09;These operator are used to perform mathematical operations in our program.
+
+&#x09;operators:+,-,\*,/,//,%,\*\*. 
+
+
+
+Assignment:
+
+&#x09;
+
+Comparison/relational
+
+Logical
+
+Identity
+
+Membership
+
+Bitwise
+
+warlus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
