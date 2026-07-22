@@ -197,39 +197,7 @@ string
 
 
 
-Note:
 
-&#x09;Operator we use to check Immutable and Mutable is +=.
-
-&#x09;
-
-Input() function:
-
-&#x09;This function is used to pass the values into my program after the execution of the program.
-
-
-
-Operators:
-
-&#x09;operator is a symbol that performs some action between one or more then one objects.
-
-Types of operators:
-
-
-
-Arithmetic:
-
-&#x09;These operator are used to perform mathematical operations in our program.
-
-&#x09;operators:+,-,\*,/,//,%,\*\*. 
-
-
-
-Assignment:
-
-&#x09;
-
-Comparison/relational
 
 Logical
 
@@ -245,47 +213,47 @@ warlus
 
 
 
+Note:
+
+&#x09;Operator we use to check Immutable and Mutable is +=.
+
+&#x09;
+
+Input() function:
+
+&#x09;This function is used to pass the values into my program after the execution of the program.
 
 
 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_22/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
+Operators:
+
+&#x09;operator is a symbol that performs some action between one or more then one objects.
+
+Types of operators:
 
 
 
+Arithmetic:
+
+&#x09;These operator are used to perform mathematical operations in our program.
+
+&#x09;operators:+,-,\*,/,//,%,\*\*.
 
 
 
+Assignment:
+
+&#x09;This are used to assign a value to a variable.
 
 
 
+Comparison/relational:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+&#x09;Two compare values of two objects and they return Boolen value as an output.
 
 
 

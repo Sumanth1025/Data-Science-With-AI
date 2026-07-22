@@ -292,29 +292,67 @@ drop:
 
 
 
-2.DML(Data  Language):
+3.Truncate:
+
+&#x09;Delete the data not the structer.
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_22/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+
+
+2.DML(Data Maipulation Language):
+
+&#x09;It is used to modify the data.
+
+&#x09;	1.Insert: It insert the values to the table.
+
+&#x09;	syntax: Insert into tablename (column names) values(values name);
+
+&#x09;		(or)Insert into tablename (column values);
+
+
+
+&#x09;	2. Update: to update the data in a table
+
+&#x09;	syntax: update tablename set column=value
+
+
+
+We use where class at end of the update to update particular row.
+
+&#x09;	
+
+&#x09;	3.Delete: to delete particular record or delete complete data row by row.
+
+&#x09;	syntax: delete from tablename; 
+
+We use where class at end of the delete to delete particular row.
+
+&#x09;
+
+
+
+what is the different between truncate and delete?
+
+in truncate we cant delete single row the all the rows will be deleted.
+
+where we can delete single row in the delete.
+
+the truncate is faster when compare to delete. because it delete the entire data 
+
+
+
+
 
 3.DQL(Data  Language):
 
 4.DCL(Data  Language):
 
 5.TCL( Language):
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
