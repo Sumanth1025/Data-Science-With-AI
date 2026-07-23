@@ -324,11 +324,11 @@ drop:
 
 We use where class at end of the update to update particular row.
 
-&#x09;	
+&#x09;
 
 &#x09;	3.Delete: to delete particular record or delete complete data row by row.
 
-&#x09;	syntax: delete from tablename; 
+&#x09;	syntax: delete from tablename;
 
 We use where class at end of the delete to delete particular row.
 
@@ -342,17 +342,31 @@ in truncate we cant delete single row the all the rows will be deleted.
 
 where we can delete single row in the delete.
 
-the truncate is faster when compare to delete. because it delete the entire data 
+the truncate is faster when compare to delete. because it delete the entire data
 
 
 
 
 
-3.DQL(Data  Language):
+3.DQL(Data query Language):
 
 4.DCL(Data  Language):
 
 5.TCL( Language):
+
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_23/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+3.DQL(Data query Language):
+
+
+
+
 
 
 

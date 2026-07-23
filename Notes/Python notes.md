@@ -257,3 +257,133 @@ Comparison/relational:
 
 
 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_22/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+
+
+## Logical Operators:
+
+&#x09;			It is used to evaluate one or more than one condition at once.
+
+&#x09;			Operators: and, or, not
+
+### AND True Table:
+
+
+
+con1	con2	result
+
+True	True	True
+
+True	False	False
+
+False	True	False
+
+False	False	False
+
+
+
+
+
+
+
+
+
+### OR True Table:
+
+
+
+con1	con2	result
+
+True	True	True
+
+True	False	True
+
+False	True	True
+
+False	False	False
+
+
+
+
+
+### NOT True Table:
+
+
+
+con1	result
+
+True	False
+
+False	True
+
+
+
+
+
+## Identity operator:
+
+&#x09;				These operators are used to check wheather two variables are pointing to the same object or not.
+
+&#x09;				operator: is, is not
+
+
+
+
+
+
+
+## Membership operator:
+
+
+
+
+
+&#x09;				These are used 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

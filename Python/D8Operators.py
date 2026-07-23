@@ -124,3 +124,21 @@ age=int(input('Enter your age: '))
 print(age>21)
 
 # Task: write 2 real time examples on each of, >= and <= operators
+
+age = int(input("Enter your age: "))
+print(age >= 18)
+
+marks = int(input("Enter your marks: "))
+print(marks >= 50)
+
+price = int(input("Enter the price of the item: "))
+print(price <= 1000)
+
+temp = int(input("Enter the temperature: "))
+print(temp <= 30)
+
+stock = int(input("Enter the stock quantity: "))
+print(stock < 10)
+
+speed = int(input("Enter the speed of the vehicle: "))
+print(speed < 80)
