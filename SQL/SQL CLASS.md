@@ -356,13 +356,61 @@ the truncate is faster when compare to delete. because it delete the entire data
 
 
 
-
-
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_23/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
-3.DQL(Data query Language):
+
+
+
+
+3.DQL(Data Quarry Language):
+
+&#x09;DQL is used to retrieve the data from the database.
+
+
+
+&#x09;SELECT: it isused to reterive the data from a table.
+
+
+
+&#x09;	Syntax: to return retrieve a single column
+
+&#x09;			select column name from tablename;
+
+&#x09;		to reterive complete table
+
+&#x09;			select \* from tablename;
+
+
+
+Constrations: it works by  using some rules to be applied to retrieve the dat
+
+
+
+
+
+Why we use ?
+
+
+
+to maintain the accuracy and consistency:
+
+
+
+where we use it?
+
+while creating a table
+
+
+
+1.not Null
+
+it doesnot allow null values in that column. if values should be there it shows an error.
+
+
+
+Syntax: create table tablename (columnname datatype not null);
 
 
 
@@ -370,21 +418,75 @@ the truncate is faster when compare to delete. because it delete the entire data
 
 
 
+2.Unique
+
+it doesnot allow duplicate values
+
+
+
+Syntax: create table tablename (columnname datatype unique );
 
 
 
 
 
+3.Primary Key : It does not allows null values and duplicates in the table
+
+
+
+Syntax: Create table tablename (columnname datatype primary key);
 
 
 
 
 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_24/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
+4\. Foreign key:
+
+&#x09;It establishes the relationship between the tables
+
+&#x09;Syntax: Create a table tablename(columnname data type primary key, column name data type, foreign key(primary key column in table1) reference 
+
+&#x20;               table name1(primary key column));
 
 
+
+Table1:
+
+
+
+|101 |hello	|
+
+|102 |hi	|
+
+|103 |how	|
+
+|104 |are	|
+
+
+
+table2:
+
+
+
+|202 | we	|101|
+
+|203 | were	|102|
+
+|204 | may	|103|
+
+|205 | yes	|104|
+
+
+
+\#Default
+
+It add the value by default to the column
+
+syntax: create table tablename(columnname datatype default value);
 
 
 

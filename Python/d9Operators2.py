@@ -57,3 +57,14 @@ list1 = [1, 2, 3]
 list2 = [1, 2, 3]
 print(list1 is list2)  # False, list1 and list2 are not the same object
 print(list1 == list2)  # True, list1 and list2 have the same values
+
+# MEMPERSHIP OPERATOR
+#IN
+names=['venkatesh','sumanth','uma','abishay','akash']
+print('bose' in names)
+print('venkatesh'in names)
+
+# NOT IN 
+names=['venkatesh','sumanth','uma','abishay','akash']
+print('bose' not in names)
+print('venkatesh'not in names)

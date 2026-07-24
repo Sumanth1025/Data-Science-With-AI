@@ -1,25 +1,129 @@
-create database d22r;
+show databases;
 use d22r;
-create table students(student_id int, student_name varchar(50), marks int, email_id varchar(50));
-
-alter table students add column phone_number int;
-
-alter table students rename column phone_number to phone_no;
-
-alter table students modify column marks int;
-
-Insert into students values
-(1,'sai',93,'sai@gmail.com',42354),
-(2,'uma',65,'uma@gmail.com',12134);
-
-SET SQL_SAFE_UPDATES = 0;
-update students_new set marks=100;
+create table kishor(id int primary key, names varchar(50)); 
+insert into kishor values (101, 'kishor'),
+(102, 'me'),(103, 'sumanth'),(104, 'uma'),(105,'divakar');
 
 
-select * from students_new;
+-- Foreign key:
+create table gopi(empid int primary key, email varchar(50), id int,foreign key(id) references kishor(id));
+insert into gopi values (202, 'hdsfkuk',101),
+(201,'hftruie',102);
+insert into gopi values (203, 'uyndvf',101);
 
-create table aa(Id int unique, Name varchar(20) primary key not null, village varchar(20) not null );
+select * from gopi;
 
+
+
+
+create table Directors(
+-- primary key
+director_id int primary key auto_increment
+);
+ALTER TABLE Directors
+ADD name VARCHAR(50) NOT NULL,
+ADD dob DATE,
+ADD nationality VARCHAR(100),
+ADD awards TEXT;
+
+
+create table movies (
+	-- primary key
+	movie_id int primary key auto_increment,
+    -- not null 
+    title varchar(225) not null,
+    release_year year not null,
+    genre varchar(100) not null,
+    -- default
+    language varchar(50) default 'Telugu',
+    duration_minutes int not null,
+    rating decimal(3,1),
+    director_id int,
+    -- foreign key
+    foreign key (director_id) REFERENCES Directors(director_id)
+);
+
+
+create table Actors(
+-- primary key
+actor_id int primary key auto_increment,
+name varchar(225) not null,
+dob date,
+gender char(1),
+nationality varchar(100),
+debut_year year
+);
+
+
+create table Movie_cast(
+movie_id int,
+actor_id int,
+role_name varchar(225),
+screen_time_minutes int,
+-- foreign key
+foreign key (movie_id) references Movies(movie_id),
+foreign key (actor_id) references Actors(actor_id),
+-- primary key
+primary key(movie_id,actor_id)
+);
+
+
+create table Box_office(
+movie_id int, budget bigint,
+box_office_collection bigint,
+domestic_collection bigint,
+international_collection bigint,
+-- foreign key
+foreign key(movie_id) references Movies(movie_id),
+-- primary key
+primary key(movie_id)
+);
+
+
+INSERT INTO Directors (name, dob, nationality, awards) VALUES
+('S. S. Rajamouli', '1973-10-10', 'Indian', 'National Film Award'),
+('Trivikram Srinivas', '1971-11-07', 'Indian', 'Filmfare Award'),
+('Sukumar', '1970-01-11', 'Indian', 'SIIMA Award');
+
+
+INSERT INTO Movies 
+(title, release_year, genre, language, duration_minutes, rating, director_id) 
+VALUES
+('Baahubali', 2015, 'Action', 159, 8.2, 1),
+('Ala Vaikunthapurramuloo', 2020, 'Drama',  165, 7.3, 2),
+('Pushpa', 2021, 'Action', 'Telugu', 179, 7.6, 3);
+
+
+INSERT INTO Actors 
+(name, dob, gender, nationality, debut_year) 
+VALUES
+('Prabhas', '1979-10-23', 'M', 'Indian', 2002),
+('Allu Arjun', '1982-04-08', 'M', 'Indian', 2003),
+('Rashmika Mandanna', '1996-04-05', 'F', 'Indian', 2016);
+
+
+INSERT INTO Movie_cast 
+(movie_id, actor_id, role_name, screen_time_minutes) 
+VALUES
+(1, 1, 'Amarendra Baahubali', 140),
+(2, 2, 'Bantu', 150),
+(3, 2, 'Pushpa Raj', 160),
+(3, 3, 'Srivalli', 120);
+
+
+INSERT INTO Box_office 
+(movie_id, budget, box_office_collection, domestic_collection, international_collection) 
+VALUES
+(1, 1800000000, 6500000000, 5000000000, 1500000000),
+(2, 1000000000, 2600000000, 2000000000, 600000000),
+(3, 2000000000, 3600000000, 2500000000, 1100000000);
+
+
+select * from movies;
+select * from Directors;
+select * from Actors;
+select * from Movie_cast;
+select * from Box_office;
 
 
 
