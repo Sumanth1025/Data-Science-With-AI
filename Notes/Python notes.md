@@ -537,6 +537,68 @@ Slicing:It is used to access or edit multiple
 
 
 
+### Tuple packing and unpacking:
+
+
+
+&#x09;Packing: When we pass multiple objects to a variable, python by default packs them into a tuple.
+
+
+
+&#x09;Unpacking: Using multiple variables to access elements from a sequence.
+
+
+
+
+
+### String Concatenation and Replication:
+
+
+
+&#x09;String Concatenation:
+
+&#x09;	Joining two strings together using + operator.
+
+&#x09;String Replication:
+
+&#x09;	we can repeat a string multiply times using \* operator.
+
+
+
+
+
+### Decision making statement:
+
+Here the if statement takes a condition and make one decision if the condition is true else make another decision.
+
+
+
+Syntax:(Rules to write a program)
+
+if condition:
+
+&#x09;#code
+
+else:
+
+&#x09;#code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

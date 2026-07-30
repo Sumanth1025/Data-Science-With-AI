@@ -448,7 +448,7 @@ Syntax: Create table tablename (columnname datatype primary key);
 
 &#x09;It establishes the relationship between the tables
 
-&#x09;Syntax: Create a table tablename(columnname data type primary key, column name data type, foreign key(primary key column in table1) reference 
+&#x09;Syntax: Create a table tablename(columnname data type primary key, column name data type, foreign key(primary key column in table1) reference
 
 &#x20;               table name1(primary key column));
 
@@ -492,21 +492,31 @@ syntax: create table tablename(columnname datatype default value);
 
 
 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_28/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+1.CHECK:
+
+
+
+It check the condition if condition is satisfied the value enter into the table.
+
+
+
+Syntax: create table table\_name(columnname datatype check (condition));
+
+
+
+Auto increment:
 
 
 
 
 
+it increment the values one by one to the column
 
 
 
-
-
-
-
-
-
-
-
-
+Syntex: create table tablename(columnname datatype auto\_increment primary key);
 
