@@ -1,21 +1,5 @@
-show databases;
 use d22r;
-create table kishor(id int primary key, names varchar(50)); 
-insert into kishor values (101, 'kishor'),
-(102, 'me'),(103, 'sumanth'),(104, 'uma'),(105,'divakar');
-
-
--- Foreign key:
-create table gopi(empid int primary key, email varchar(50), id int,foreign key(id) references kishor(id));
-insert into gopi values (202, 'hdsfkuk',101),
-(201,'hftruie',102);
-insert into gopi values (203, 'uyndvf',101);
-
-select * from gopi;
-
-
-
-
+show tables;
 create table Directors(
 -- primary key
 director_id int primary key auto_increment
@@ -125,11 +109,10 @@ select * from Actors;
 select * from Movie_cast;
 select * from Box_office;
 
-
-
-
-
-
+desc movies;
+desc box_office;
+SELECT s.movie_id,s.title,b.budget FROM Movies s LEFT JOIN Box_office b ON s.movie_id = b.movie_id;
+select s.movie_id,s.budget,m.title from Movies m right join Box_office s on s.movie_id = m.movie_id;
 
 
 

@@ -33,13 +33,14 @@ print("Venue: Inkollu UHS school")
 print("="*30)
 
 
+raining = input("take the input yes or no from user: ")
 
-# if raining=="yes":
-#     print("Thaduchukuntu podham")
-# else:
-#     print("Thadava kunda podham")
+if raining=="yes":
+    print("Thaduchukuntu podham")
+else:
+    print("Thadava kunda podham")
 
-#tickting booking
+#ticket booking
 age=int(input('enter the age:'))
 if age>18:
     print('you can buy a ticket')

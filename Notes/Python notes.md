@@ -585,6 +585,32 @@ else:
 
 
 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_30/07/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+
+
+## while loop:
+
+&#x09;It loops over a condition and repeats the block's execution as long as the condition is true.
+
+
+
+#### Every while loop has three major parts:
+
+initialization
+
+condition
+
+increment/decrement
+
+
+
+
+
+
+
 
 
 

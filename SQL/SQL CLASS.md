@@ -520,3 +520,185 @@ it increment the values one by one to the column
 
 Syntex: create table tablename(columnname datatype auto\_increment primary key);
 
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_30/07/26\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+Operators:
+
+&#x09;the symbol that performs specific operations
+
+Arthematic operators:-
+
+&#x09;It performs certain mathematical operations tothe values.
+
+
+
++,
+
+\-,
+
+\*.
+
+/,
+
+%
+
+
+
+Comparision operator:
+
+it compare the values in the table:
+
+=
+
+=!
+
+>
+
+<
+
+>=
+
+<=
+
+we run the comparision operator in where clause.
+
+
+
+Logical operator:
+
+&#x09;It check the condition true or not
+
+and
+
+or
+
+not
+
+xor
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_04/08/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+
+
+#### Joins: 
+
+&#x09;It retrieves the matching records from the table.
+
+Left join: It retrieves all the values from left table and common records from right table.
+
+
+
+table1:
+
+
+
+101 hello
+
+102 ravi
+
+103 ram
+
+104 vishnu
+
+
+
+Table2:
+
+
+
+201 560000 101
+
+202 67000  103
+
+203 586445 109
+
+
+
+
+
+hello  560000
+
+ravi   null
+
+ram    67000
+
+Vishnu null
+
+
+
+
+
+
+
+Right join: It retrieve the records from the right table and the common records from the left table.
+
+Inner join
+
+Full outer join
+
+Self join
+
+Cross join
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
