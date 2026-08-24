@@ -674,10 +674,26 @@ syntax:
 		update table set columnname = values where columnname = select columnname from (select columnname from tablename) as temporary tablename);	
 
 
+views: 
+
+It is a virtual table 
+It work as a table
+we can update, delete and retrieve the data by using view
+
+create table tablename(columnname datatype constraint);
+
+create view viewname as (query);
 
 
+Cte:
+Common table Expression
+works as a table for temporary person and does not store the data
+the common table expression works only once
+it starts with 'with''
+we can reuse the cte name again and again
 
-
+and the syntax is :
+with cte as(query) select * from cte; 
 
 
 
