@@ -607,3 +607,259 @@ increment/decrement
 
 
 
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_24/08/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+
+
+
+
+## Note:
+
+#### &#x09;A program exits a loop only when it encounters a break statement or it completed it.
+
+### Nested loops:
+
+&#x09;	Defining a loop inside another loop. and python support cross nested loop.
+
+Types of nested loops:
+
+* For inside For loop:
+
+&#x09;	Here one for loop in defined inside an another for loop.
+
+* While loop inside While loop
+* For loop inside While loop
+* While loop inside For loop
+
+
+
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_31/08/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+
+
+#### User defined function:
+
+##### &#x09;It is a block of code which performs a certain action when we call it.
+
+##### &#x09;These are the function created by the developers, coders.
+
+#### Block of code:
+
+##### &#x09;A set of multiple lines of code/program.
+
+#### Why Functions:
+
+&#x09;These are used to reuse a block of code again and again
+
+
+
+Types of functions:
+
+Built in : These are already defined and stored in python packages.
+
+user Define functions:
+
+&#x09;These are the functions created by the programmers/user
+
+
+
+
+
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_01/09/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+Function with parameters:
+
+
+
+parameters:
+
+&#x09;These are the variables passed to a function during function definition. And are passed inside the braces in the function declaration line.
+
+Arguments:
+
+&#x09;Arguments
+
+
+
+
+
+
+
+Functions with return statement:
+
+&#x09;return makes a function to give some values as output.
+
+so that you can use that output in further calculation or to pass that output as argument to another function.
+
+
+
+
+
+***when do  we use print statement and when to use return statement in a function?***
+
+
+
+We use print function if we don't want to use the
+
+
+
+
+
+
+
+
+
+Types of Arguments:
+
+Here we will see in how many ways we can pass argument to the parameters of a function
+
+
+
+1 Positional arguments:
+
+&#x09;Here we are passing arguments to the parameters based on the position of parameters.
+
+2 Default arguments:
+
+&#x09;If we don't have any arguments during function call the function consider the default argument assigned at the function definition, if we pass an argument during function calling, the function consider the argument.
+
+
+
+Note: we can't pass normal parameters after default parameters.
+
+
+
+3 Keyword arguments
+
+4 Variable length arguments
+
+5 Variable length keyword arguments
+
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_08/09/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+
+
+### Global:
+
+Here the variables/objects are defined out of the function and are accessible through out the program. variables with global scope are called global variables.
+
+
+
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_09/09/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+
+
+### Enclosing/nonlocal:
+
+&#x09;Here the variable is defined in an outer function of an nested function.
+
+&#x09;It is available in both the outer and inner function. But there are not available out of my outer function. 
+
+
+
+
+
+
+
+To edit an nonlocal/enclosing variable inside a local function, I use nonlocal variable.
+
+
+
+Note:
+
+When every python encounters an object/variable if first check local scope the in enclosing scope then in global scope then in built in scope. If it is not available in anywhere in these scopes the  it return an error.(LEGB order)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&#x09;
+

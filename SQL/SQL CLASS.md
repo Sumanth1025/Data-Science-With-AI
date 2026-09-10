@@ -698,28 +698,120 @@ with cte as(query) select * from cte;
 
 
 
+_________________________________________________________________________24/08/2026_________________________________________________________________________
+
+DCL and TCL:
+
+DCL:
+ Data control language:
+		It gives and removes permissions to the users
+like for updating, deleting, inserting and retrive the data
+
+we have 2 types:
+1. Grant:
+	It gives permission to the user
+Syntax:
+	grant all privileges on database.table to user@localhost;
+
+
+2. Revoke:
+	It removes the permissions from the user
+symtax:
+	revoke all privileges on databases.table from user@localhost
+
+
+TCL:
+Transaction control language
 
 
 
 
+_________________________________________________________________________31/08/2026_________________________________________________________________________
 
 
+Triggers:
+	It is also advanced version of stored procedure. it works on by using events on each
+the events on each
+insert:-
+	used to insert the values using before and after 
+update
+delete
 
 
+Syntax:
+Delimiter //
+create trigger trigger_name
+events on table_name
+for each row
+begin
+sql statements
+end //
+delimiter;
 
 
+__________________________________________________________________________2/09/26_________________________________________________________________________
+Window funtions:
+	it perfrom on some calculations on multiple records or rows and keeps
+the individual rows itself.
+
+syntax:-
+select columnnames,.... over() from table name;
+
+over():-
+	It is a window clause to initiate the window fuction
+
+partition by :- it is similer to group by but it retriveves all the data while using it window fuction
+syntax:- data
+select columnnames,....... over(partition by columnname) from table;
+
+orderby:-
+	it arrange the
+
+sum(salary)
+it 	89000	| 244000
+it	95000	| 244000
+sales	64000	| 244000
+
+types o ranking functions in window functions:-
+4types
+rows number
+it assigns the value incrementing upto the end values, it only works unique values.
+
+ranks:
+it gives duplicate ranks to the duplicate column values
+syntax:
+select *, rank() over() from table_name;
+
+dense_rank:
+it give duplicate rank to the duplicate values and it does not skips next
+ranking values:-
+syntax:-
+
+select *, dense_rank() over() from table_name;
 
 
+ntitle(5):-
+syntax:-select*, ntitle(n) over () from table_name;
 
+lead():
+it retrieves the next value the current vslue
+select *,lead(column_name) over() from table_name
 
+lag()
+it retrieves the previous value the current vslue
+select *,lag(column_name) over() from table_name
 
+frist_value:-
+it retrieves the frist value to the all records
+select *,Frist_value(column_name) over() from table_name;
 
+Last_value:-
+it retrieves the Last value to the all records
+select *, last_value(column_name) over() from table_name;
 
-
-
-
-
-
+nth value()
+it skips the n-1 value in the record and it will start from nth value
+select *,nth_value(column_name) over() from table_name
 
 
 

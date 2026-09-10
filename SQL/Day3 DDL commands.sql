@@ -440,4 +440,15 @@ select E.emp_name, ED.manager_name from employees E Cross Join employee_details 
 -- 5. Display every employee name along with every project. 
 select E.emp_name, ED.project from employees E Cross Join employee_details ED;
 
--- 6. Display emp_name, department, and project using a CROSS JOIN. 
+-- 6. Display emp_name, department, and project using a CROSS JOIN.
+
+
+
+
+
+ 
+ 
+select * from mysql.user;
+GRANT all privileges ON jai_db.* TO a3@localhost;
+
+
