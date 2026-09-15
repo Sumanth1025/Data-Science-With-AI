@@ -58,8 +58,8 @@
 
 
 #take additional list for cities and zip it along with name and sales
-emp=['uma','rajesh','sumanth','teja','venkat','janhvi']
-sales=[67000,56000,34000,87000,66000,98000]
-cities=['Hyderabad','Bheemavaram','Inkollu','mumbai','delhi','bengaluru']
-for name,salary,cities in zip(emp,sales,cities):
-    print(f'The employee {name} is earning a salary of {salary} and he is from {cities}')
+# emp=['uma','rajesh','sumanth','teja','venkat','janhvi']
+# sales=[67000,56000,34000,87000,66000,98000]
+# cities=['Hyderabad','Bheemavaram','Inkollu','mumbai','delhi','bengaluru']
+# for name,salary,cities in zip(emp,sales,cities):
+#     print(f'The employee {name} is earning a salary of {salary} and he is from {cities}')
