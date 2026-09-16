@@ -235,16 +235,51 @@
 
 
 #Automorphic number:
-def AuphNum(num):
-    temp=num
-    square=num**2
-    while temp>0:
-        digit=temp%10
-        if digit != square%10:
-            print(f'{num} is not an Automorphic number')
-            return
-        temp//=10
-        square//=10
-    print(f'{num} is an Automorphic number')
-num=int(input())
-AuphNum(num)
+# def AuphNum(num):
+#     temp=num
+#     square=num**2
+#     while temp>0:
+#         digit=temp%10
+#         if digit != square%10:
+#             print(f'{num} is not an Automorphic number')
+#             return
+#         temp//=10
+#         square//=10
+#     print(f'{num} is an Automorphic number')
+# num=int(input())
+# AuphNum(num)
+
+
+
+# def AuphNum(num):
+#     temp = num
+#     count = 0
+#     while temp > 0:
+#         temp //= 10
+#         count += 1
+#     square = num ** 2
+#     digit = square % (10 ** count)
+#     if num == digit:
+#         print(f'{num} is an Automorphic number')
+#     else:
+#         print(f'{num} is not an Automorphic number')
+# num = int(input('Enter number: '))
+# AuphNum(num)
+
+
+
+#Neon Num
+# def Neon(num):
+#     temp=num
+#     s=num**2
+#     sum=0
+#     while s >0:
+#         digit=s%10
+#         sum+=digit
+#         s//=10
+#     if num == sum:
+#         print(f'{num} is a neon number')
+#     else:
+#         print(f'{num} is not a neon number')
+# num=int(input('Enter the number'))
+# Neon(num)

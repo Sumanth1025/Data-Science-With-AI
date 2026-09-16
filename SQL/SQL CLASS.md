@@ -134,7 +134,7 @@ It is a Programming language which handles
 
 
 
-_________________________________________________________________________18/07/2026_________________________________________________________________________
+***18/07/2026***
 
 
 
@@ -246,7 +246,7 @@ ex: 	running race, login and logouts
 
 
 
-_________________________________________________________________________20/07/2026_________________________________________________________________________
+***20/07/2026***
 
 
 
@@ -298,7 +298,7 @@ drop:
 
 
 
-_________________________________________________________________________22/07/2026_________________________________________________________________________
+***22/07/2026***
 
 
 
@@ -356,7 +356,7 @@ the truncate is faster when compare to delete. because it delete the entire data
 
 
 
-_________________________________________________________________________23/07/2026_________________________________________________________________________
+***23/07/2026***
 
 
 
@@ -440,7 +440,7 @@ Syntax: Create table tablename (columnname datatype primary key);
 
 
 
-_________________________________________________________________________24/07/2026_________________________________________________________________________
+***24/07/2026***
 
 
 
@@ -492,7 +492,7 @@ syntax: create table tablename(columnname datatype default value);
 
 
 
-_________________________________________________________________________28/07/2026_________________________________________________________________________
+***28/07/2026***
 
 
 
@@ -524,7 +524,7 @@ Syntex: create table tablename(columnname datatype auto\_increment primary key);
 
 
 
-_________________________________________________________________________30/07/2026_________________________________________________________________________
+***30/07/2026***
 
 
 
@@ -582,13 +582,13 @@ not
 
 xor
 
-_________________________________________________________________________04/08/2026_________________________________________________________________________
+***04/08/2026***
 
 
 
 
 
-#### Joins: 
+#### Joins:
 
 &#x09;It retrieves the matching records from the table.
 
@@ -656,33 +656,36 @@ Cross join
 
 
 
-_________________________________________________________________________20/08/2026_________________________________________________________________________
+***20/08/2026***
 
 Multi column subquery:
 
 It works on more than one column to retrieve the data by using subquery is called as multy column subquery.
 
 syntax:
-		select * from tablename where (colum1,colum2) operator (select column1,column2 from tablename);
+select \* from tablename where (colum1,colum2) operator (select column1,column2 from tablename);
+
 
 
 
 
 update subquery:
-	
+
 syntax:
-		update table set columnname = values where columnname = select columnname from (select columnname from tablename) as temporary tablename);	
+update table set columnname = values where columnname = select columnname from (select columnname from tablename) as temporary tablename);
 
 
-views: 
 
-It is a virtual table 
+views:
+
+It is a virtual table
 It work as a table
 we can update, delete and retrieve the data by using view
 
 create table tablename(columnname datatype constraint);
 
 create view viewname as (query);
+
 
 
 Cte:
@@ -693,31 +696,35 @@ it starts with 'with''
 we can reuse the cte name again and again
 
 and the syntax is :
-with cte as(query) select * from cte; 
+with cte as(query) select \* from cte;
 
 
 
 
-_________________________________________________________________________24/08/2026_________________________________________________________________________
+
+***24/08/2026***
 
 DCL and TCL:
 
 DCL:
- Data control language:
-		It gives and removes permissions to the users
+Data control language:
+It gives and removes permissions to the users
 like for updating, deleting, inserting and retrive the data
 
 we have 2 types:
+
 1. Grant:
-	It gives permission to the user
+It gives permission to the user
 Syntax:
-	grant all privileges on database.table to user@localhost;
+grant all privileges on database.table to user@localhost;
 
 
-2. Revoke:
-	It removes the permissions from the user
+
+1. Revoke:
+It removes the permissions from the user
 symtax:
-	revoke all privileges on databases.table from user@localhost
+revoke all privileges on databases.table from user@localhost
+
 
 
 TCL:
@@ -726,22 +733,25 @@ Transaction control language
 
 
 
-_________________________________________________________________________31/08/2026_________________________________________________________________________
+
+***31/08/2026***
+
 
 
 Triggers:
-	It is also advanced version of stored procedure. it works on by using events on each
+It is also advanced version of stored procedure. it works on by using events on each
 the events on each
 insert:-
-	used to insert the values using before and after 
+used to insert the values using before and after
 update
 delete
 
 
+
 Syntax:
 Delimiter //
-create trigger trigger_name
-events on table_name
+create trigger trigger\_name
+events on table\_name
 for each row
 begin
 sql statements
@@ -749,23 +759,24 @@ end //
 delimiter;
 
 
-__________________________________________________________________________2/09/26_________________________________________________________________________
+
+\_***2/09/26***
 Window funtions:
-	it perfrom on some calculations on multiple records or rows and keeps
+it perfrom on some calculations on multiple records or rows and keeps
 the individual rows itself.
 
 syntax:-
 select columnnames,.... over() from table name;
 
 over():-
-	It is a window clause to initiate the window fuction
+It is a window clause to initiate the window fuction
 
 partition by :- it is similer to group by but it retriveves all the data while using it window fuction
 syntax:- data
 select columnnames,....... over(partition by columnname) from table;
 
 orderby:-
-	it arrange the
+it arrange the
 
 sum(salary)
 it 	89000	| 244000
@@ -780,41 +791,37 @@ it assigns the value incrementing upto the end values, it only works unique valu
 ranks:
 it gives duplicate ranks to the duplicate column values
 syntax:
-select *, rank() over() from table_name;
+select \*, rank() over() from table\_name;
 
-dense_rank:
+dense\_rank:
 it give duplicate rank to the duplicate values and it does not skips next
 ranking values:-
 syntax:-
 
-select *, dense_rank() over() from table_name;
+select \*, dense\_rank() over() from table\_name;
+
 
 
 ntitle(5):-
-syntax:-select*, ntitle(n) over () from table_name;
+syntax:-select\*, ntitle(n) over () from table\_name;
 
 lead():
 it retrieves the next value the current vslue
-select *,lead(column_name) over() from table_name
+select \*,lead(column\_name) over() from table\_name
 
 lag()
 it retrieves the previous value the current vslue
-select *,lag(column_name) over() from table_name
+select \*,lag(column\_name) over() from table\_name
 
-frist_value:-
+frist\_value:-
 it retrieves the frist value to the all records
-select *,Frist_value(column_name) over() from table_name;
+select \*,Frist\_value(column\_name) over() from table\_name;
 
-Last_value:-
+Last\_value:-
 it retrieves the Last value to the all records
-select *, last_value(column_name) over() from table_name;
+select \*, last\_value(column\_name) over() from table\_name;
 
 nth value()
 it skips the n-1 value in the record and it will start from nth value
-select *,nth_value(column_name) over() from table_name
-
-
-
-
-
+select \*,nth\_value(column\_name) over() from table\_name
 
