@@ -781,7 +781,7 @@ Here the variables/objects are defined out of the function and are accessible th
 
 &#x09;Here the variable is defined in an outer function of an nested function.
 
-&#x09;It is available in both the outer and inner function. But there are not available out of my outer function. 
+&#x09;It is available in both the outer and inner function. But there are not available out of my outer function.
 
 
 
@@ -805,23 +805,39 @@ When every python encounters an object/variable if first check local scope the i
 
 
 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_18/09/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+## Methods:
+
+
+
+function:
+
+It is a block of code written to perform a certain task and it is executed when we call it.
 
 
 
 
 
+Method is also a function but it is attached to an object.
+
+Syntax: objectName.methodName()
 
 
 
+String Methods:
+
+&#x09;These are the functions which are attached to string object.
 
 
 
+&#x09;	
 
+upper() method:
 
-
-
-
-
+&#x09;It is used to convert all the lower case characters in a string to a upper case character.
 
 
 
