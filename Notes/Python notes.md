@@ -833,11 +833,101 @@ String Methods:
 
 
 
-&#x09;	
+&#x09;
 
 upper() method:
 
 &#x09;It is used to convert all the lower case characters in a string to a upper case character.
+
+
+
+
+
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_21/09/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+### Methods:
+
+#### List methods:
+
+append
+
+insert
+
+extend
+
+remove
+
+sort(): It is used to arrange an list of elements in ascending order.
+
+when we pass list of strings to sort functions, it sorts them based on the ASCII value of the characters.
+
+
+
+reverse(): It reverse the order of the elements we pass 
+
+
+
+
+
+
+
+#### Tuple methods:
+
+
+
+count():
+
+&#x09;It returns the number of occurrences of an element in a tuple.
+
+Note:
+
+&#x09;If you check the count of the element the doesn't exist in the tuple is it return 0.
+
+
+
+Index():
+
+&#x09;It return the index number of the element pass to it.
+
+Note: 
+
+&#x09;It raise a valueerror when we check for the index number of the element which does not exists in the list/tuple.
+
+
+
+
+
+
+
+### Set methods:
+
+
+
+add(): It adds an element to a set.
+
+
+
+Update(): It is to add multiple elements to  a set at once.
+
+
+
+Note:
+
+&#x09;Here we pass multiple values to update method as a sequence of values if not it considers each character as a element and add to the set 
+
+&#x09;
+
+
+
+
+
+
 
 
 
