@@ -51,9 +51,42 @@
 
 
 
-set1={1,2,3}
-set2={1,2,3,4,5}
-print(set1.issubset(set2))
-print(set2.issuperset(set1))
-print(set1.union(set2))
-print(set1.(set2))
+
+# set1={1,2,3}
+# set2={1,2,3,4,5}
+# print(set1.issubset(set2))
+# print(set2.issuperset(set1))
+# print(set1.union(set2))
+# print(set1.intersection(set2))
+# print(set1.union(set2))
+
+
+
+# set1={4,6,3,2,1}
+# set2={10,8,9,7,5}
+# print(set1.union(set2))
+# print(set1.intersection(set2))
+# print(set1.difference(set2))
+# print(set1^set2)
+
+
+
+details = {'Name': 'Sumanth', 'City': 'Hyderabad'}
+# details['City']='Inkollu'
+# details['phno']='+91 890768'
+# print(details)
+# print(details.keys())
+# print(details.values())
+# print(details.items())
+# print(details.get('Name','Name doesnot exist'))
+# print(details.get('dist','dist doesnot exist'))
+
+
+
+#copy():
+# detailscopy=details.copy()
+# print(detailscopy)
+
+# details.clear()
+# print(details)
+# print(detailscopy)

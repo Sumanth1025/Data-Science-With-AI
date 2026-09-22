@@ -929,17 +929,58 @@ Note:
 
 
 
+Subset():
+
+set1 becomes the subset of set2 when all the elements of set1 are also available in set2.
+
+
+
+Superset():
+
+set2 become superset of set1 if it consists of more values then set1 and every values in the set1 need to be in the set 2.
 
 
 
 
 
+Union():
+
+&#x09;It combines the elements of two sets
 
 
 
 
 
+### dictionary:
 
+Keys():It return the list of all keys in the dictionary.
+
+values():It return the list of all values in the dictionary.
+
+items(): It return list of pair of tuples of key, values of a dictionary.
+
+get(): It return the value of a key if it exists.
+
+
+If we use get method to access the key which does not exists then it return none.
+
+
+
+
+
+we can pass an optional message to get method incase what to display when the key does not exist.
+
+
+
+copy(): creates a duplicate dictionary of existing dictionary.
+
+
+
+
+
+clear():
+
+&#x09;Deletes all the elements in the sequence.
 
 
 
