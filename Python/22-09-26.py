@@ -44,14 +44,67 @@
 
 
 
-def count(s, ch):
-    count = 0
+# def count(s, ch):
+#     count = 0
+#     i = 0
+#     while i < len(s):
+#         if s[i] == ch:
+#             count += 1
+#         i += 1
+#     return count
+# s = input()
+# ch = input()
+# print(ch, "occurred", count(s, ch), "times")
+
+
+
+def first(s):
     i = 0
     while i < len(s):
-        if s[i] == ch:
-            count += 1
+        count = 0
+        j = 0
+        while j < len(s):
+            if s[i] == s[j]:
+                count += 1
+            j += 1
+        if count == 1:
+            return s[i]
         i += 1
-    return count
-s = input()
-ch = input()
-print(ch, "occurred", count(s, ch), "times")
+    return "No non-repeating character"
+s = input("Enter a string: ")
+print("First non-repeating character:", first(s))
+
+
+
+
+def last(s):
+    i = len(s) - 1
+    while i >= 0:
+        count = 0
+        j = 0
+        while j < len(s):
+            if s[i] == s[j]:
+                count += 1
+            j += 1
+        if count == 1:
+            return s[i]
+        i -= 1
+    return "No non-repeating character"
+s = input("Enter a string: ")
+print("Last non-repeating character:", last(s))
+
+
+
+
+def remove_special(s):
+    result = ""
+    i = 0
+    while i < len(s):
+        if ((s[i] >= 'a' and s[i] <= 'z') or
+            (s[i] >= 'A' and s[i] <= 'Z') or
+            (s[i] >= '0' and s[i] <= '9')):
+            result += s[i]
+        i += 1
+    return result
+s = input("Enter a string: ")
+print("After removing special characters:", remove_special(s))
