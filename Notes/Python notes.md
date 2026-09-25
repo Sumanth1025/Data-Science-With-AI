@@ -869,7 +869,7 @@ when we pass list of strings to sort functions, it sorts them based on the ASCII
 
 
 
-reverse(): It reverse the order of the elements we pass 
+reverse(): It reverse the order of the elements we pass
 
 
 
@@ -895,7 +895,7 @@ Index():
 
 &#x09;It return the index number of the element pass to it.
 
-Note: 
+Note:
 
 &#x09;It raise a valueerror when we check for the index number of the element which does not exists in the list/tuple.
 
@@ -919,7 +919,7 @@ Update(): It is to add multiple elements to  a set at once.
 
 Note:
 
-&#x09;Here we pass multiple values to update method as a sequence of values if not it considers each character as a element and add to the set 
+&#x09;Here we pass multiple values to update method as a sequence of values if not it considers each character as a element and add to the set
 
 &#x09;
 
@@ -962,6 +962,7 @@ items(): It return list of pair of tuples of key, values of a dictionary.
 get(): It return the value of a key if it exists.
 
 
+
 If we use get method to access the key which does not exists then it return none.
 
 
@@ -990,19 +991,29 @@ clear():
 
 
 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_25/09/2026\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
 
 
 
 
+## Comprehensions:
+
+
+
+&#x09;Comprehensions are used to generate a sequence from a existing sequence.
+
+we write Comprehensions when logic is small and easy.
+
+eg: num:\[1,2,3,4,5]
+
+&#x20;   sqnum:\[1,4,9,16,25]
 
 
 
 
 
-
-
-
+seq1
 
 
 
