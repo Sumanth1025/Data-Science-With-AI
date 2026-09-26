@@ -109,4 +109,9 @@
 
 
 
-emails=['venkataranayana@spacex.com']
+#write a Comprehensions to genetate a list of username from the emails the part before @ is user name 
+# emails=['venkataranayana@spacex.com','sumanthteja@tesla.com','shankar@AI.com','rasagna@asml.com']
+# username=[i.split('@')[0] for i in emails]
+# print(username)
+# domain=[i.split('@')[1] for i in emails]
+# print(domain)

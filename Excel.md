@@ -64,3 +64,21 @@ worksheet:-
 
 It
 
+
+
+Aggrate functions:
+
+sum
+
+min
+
+max
+
+avg
+
+count
+
+counta
+
+countblank
+

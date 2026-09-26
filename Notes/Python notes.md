@@ -1013,7 +1013,79 @@ eg: num:\[1,2,3,4,5]
 
 
 
-seq1
+seq1=\[expression for item in seq if condition]
+
+
+
+##### Type of Comprehensions:
+
+###### list Comprehensions:\[]
+
+###### set Comprehensions:{}
+
+###### dict Comprehensions:{key:values}
+
+###### tuple Comprehensions:()
+
+
+
+
+
+
+
+
+
+Note: real time usage of Comprehensions:
+
+To generate matrix.
+
+
+
+
+
+###### dict Comprehensions:{key:values}:
+
+
+
+&#x09;Used to generate dictionary from an existing seq.
+
+
+
+{key:values for item in seq if condition} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
