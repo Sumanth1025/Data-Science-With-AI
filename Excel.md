@@ -82,3 +82,41 @@ counta
 
 countblank
 
+
+
+
+
+### operators:
+
+
+
+&#x09;It is a symbols which it performs some operators or values
+
+
+
+the operators are:
+
+arthematic operator:- it performs some mathematical operators like +,-,\*,/
+
+
+
+relational operator: It compare operands or values using operastor so this operators are =,<>,>,<,>=,<=
+
+
+
+logical operator: It works on logics based on operator using operators like and, or, not
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

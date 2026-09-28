@@ -39,6 +39,22 @@
 
 
 #write a comprehension to generate dict where each cel temp is mapping to its euivalent farenheit
-temps=(34,56,23,55,12,-4)
-convert={cel:cel*(9/8)+32 for cel in temps} #  formula cel*(9/8)+32
-print(convert)
+# temps=(34,56,23,55,12,-4)
+# convert={cel:(cel*9/5)+32 for cel in temps} #  formula cel*(9/5)+32
+# print(convert)
+
+
+
+
+#generate an result dict where marks >35 generate pass and others fail
+# marks={'ipsitha':72,'benjaminu':32,'lankesh':66,'doritha':99,'eeston':21,'jadal':12.5,'peddi':100}
+# result={name:'pass' if mark>35 else 'fail' for name,mark in marks.items()}
+# print(result)
+
+
+
+
+#write a comprehension to generate dict where each char is mapping to its number of occurrences in the string
+# str1='Sylvester Stallone'
+# occurrences={i:str1.count(i) for i in str1}
+# print(occurrences)
