@@ -135,7 +135,6 @@
 # print("Numbers:", numcount)
 # print("Special characters:", splcount)
 
-
 # #or
 
 # s = input('Enter the string: ')

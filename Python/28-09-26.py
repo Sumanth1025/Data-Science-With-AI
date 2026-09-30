@@ -72,5 +72,6 @@
 # print(list1)
 
 
+
 # threedigitnum=[(i*10+j)*10+k for i in range(1,6) for j in  range(1,6) for k in range(1,6)]
 # print(threedigitnum)
