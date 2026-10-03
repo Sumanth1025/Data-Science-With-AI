@@ -1051,17 +1051,26 @@ To generate matrix.
 
 
 
-{key:values for item in seq if condition} 
+{key:values for item in seq if condition}
+
+
+
+
+Lambda function:
 
 
 
 
 
+def: It is a one line function, nameless function, work without return statement, used for simple operations.
 
 
 
 
 
+Note: 	Lambda functions allows only one single expression 
+
+&#x09;Lambda function does not required return keyword because they return output automathially
 
 
 

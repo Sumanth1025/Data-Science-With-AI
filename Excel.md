@@ -110,6 +110,106 @@ logical operator: It works on logics based on operator using operators like and,
 
 
 
+agg+logical statement:
+
+
+
+It work in aggregates +conditional statement at a time
+
+
+
+We have some agg+conditional statements 
+
+sumif():
+
+=sumif(valuerange,value,sumrange)
+
+
+
+
+
+sumifs:
+
+=sumifs(sumrange,valuerange,value,value2range,value2)
+
+
+
+
+
+
+
+countif:
+
+=countif(valuerange,value,sumrange)
+
+
+
+
+
+countifs:
+
+=countifs(countrange,valuerange,value,value2range,value2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
