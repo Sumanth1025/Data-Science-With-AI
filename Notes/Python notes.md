@@ -1056,6 +1056,7 @@ To generate matrix.
 
 
 
+
 Lambda function:
 
 
@@ -1068,9 +1069,93 @@ def: It is a one line function, nameless function, work without return statement
 
 
 
-Note: 	Lambda functions allows only one single expression 
+Note: 	Lambda functions allows only one single expression
 
 &#x09;Lambda function does not required return keyword because they return output automathially
+
+&#x09;We can't perform assiment operations inside the lambda function.
+
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_05-10-26\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+Higher order functions:
+
+
+
+
+
+
+
+
+
+def cal (sal, per):
+
+&#x09;total=sal+(sal\*per/100)
+
+
+
+These are the functions which task another function as argument.
+
+map():	It maps the given function to each and every element of the
+
+seq it taken.
+
+
+
+syntax: map(func,seq)
+
+
+
+
+
+filter(): just like map , it takes a function and a seq as arguments and returns only
+
+the values from the seq which satisfies the condition given in t function it is taken.
+
+
+
+
+
+nums=\[345,766,233,987,445,770,293,900]
+
+
+
+write a lambda function to check whether a num is greater than 550 and
+
+&#x20;less than 800 and pass it to filter function to filter out the numbers
+
+which satisfies the function in a seq
+
+
+
+
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_07-10-26\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+
+
+
+
+Sorted():It is used to sort a sequence by using a function as a key.
+
+Syntax: sorted(seq, key=function)
+
+
+
+note: By default it sort the element in the ascending order
+
+
+
+reduce(): It reduce a seq to one single value based on the function given.
+
+note: for reduce function we can pass the default value for the first parameter as initializer.
+
+
 
 
 
