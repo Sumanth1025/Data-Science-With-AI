@@ -1161,6 +1161,36 @@ note: for reduce function we can pass the default value for the first parameter 
 
 
 
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_09-10-26\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+recursion:
+
+&#x09;It is a process where a function called itself to solve the smaller version of the same problem.
+
+
+
+Function which does recursions is called recursive function.
+
+
+
+Every recursive function has two parts:
+
+Base case: To tell when to stop the recursion process.
+
+
+
+Recursive case: To call the function itself to solve the smaller version of the problem.
+
+
+
+why recursion:
+
+&#x09;Recursions are useful when we are dealing with complicated structures like trees, graphs etc.
+
+
+
+
+
 
 
 
