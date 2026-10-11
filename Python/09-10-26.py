@@ -56,11 +56,18 @@
 
 
 
-nested=[1,[2,3],[4,[5,6]]]
-def nest(seq):
-    for i in seq:
-        if type(i)==nested:
-            nested(i)
-        else:
-            print(i)
-nest(nested)
+# nested=[1,[2,3],[4,[5,6]]]
+# def nest(seq):
+#     for i in seq:
+#         if type(i)==nested:
+#             nested(i)
+#         else:
+#             print(i)
+# nest(nested)
+
+
+# print(10, 20, 30, sep="-")
+
+
+print("Hello", end=" ")
+print("World")
