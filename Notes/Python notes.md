@@ -1197,6 +1197,36 @@ why recursion:
 
 
 
+Module:
+
+&#x09;It is a python file which consists of all the function and methods which we can use in our program
+
+
+
+Package:
+
+&#x09;It is a folder/directory which consists of multiple modules.
+
+
+
+
+
+Library:
+
+&#x09;Collection of packages forms a library.
+
+
+
+
+
+
+
+random module:
+
+&#x09;This module is used to select are generate pseudo random objects.
+
+
+
 
 
 

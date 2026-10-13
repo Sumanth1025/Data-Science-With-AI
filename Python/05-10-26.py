@@ -4,7 +4,7 @@
 # print(list(mapFunc))
 
 # write a lambda function to convert a string to upper case and map to a tuple of names using 
-#maps function
+# maps function
 # names=['Bharat','tiger','Dabanng','kick','ready']
 # lambfunc=lambda name:name.upper()
 # caseCon=map(lambfunc,names)
@@ -12,8 +12,8 @@
 
 
 # write a lambda function to add 12% gst if price less than 50000 else
-#add 18% gst if price geater then 50000 and map it to a list 
-#of prices using map function
+# add 18% gst if price geater then 50000 and map it to a list 
+# of prices using map function
 # prices=[72000,64000,69000,34000,23000,55000,18000]
 # lambfun=lambda price:price+(price*0.12) if price<50000 else price+(price*0.18)
 # gst=list(map(lambfun,prices))
@@ -30,8 +30,8 @@
 # filtered=filter(lambfun,nums)
 # print(list(filtered))
 
-#write a lambda function to filter out salaries which are greater then 50000
-#from a lis of salaries using filter function
+# write a lambda function to filter out salaries which are greater then 50000
+# from a lis of salaries using filter function
 
 # salaries=[75000,45000,56000,34000,23000,55000,18000]
 # lamfun= lambda salary:salary>50000
