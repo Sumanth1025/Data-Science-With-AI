@@ -1229,6 +1229,26 @@ random module:
 
 
 
+what does random do:
+
+&#x09;it either generate or select pseudo random objects.
+
+
+
+why: Because it follows a code/algorithm to generate
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
