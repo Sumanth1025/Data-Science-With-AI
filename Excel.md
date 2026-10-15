@@ -118,7 +118,7 @@ It work in aggregates +conditional statement at a time
 
 
 
-We have some agg+conditional statements 
+We have some agg+conditional statements
 
 sumif():
 
@@ -154,27 +154,15 @@ countifs:
 
 
 
+lookups:-
 
+&#x09;It is a search process is used to retrieve the data fastly from the sheet.
 
+we have 3 types of lookups:
 
+1. vlookup:- It is a vertical lookup and it searched the data from the column vise.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+&#x09;It think the lookvalue column id the first column to access the data.
 
 
 
