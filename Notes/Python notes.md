@@ -1241,6 +1241,20 @@ why: Because it follows a code/algorithm to generate
 
 
 
+operator precedence:
+
+&#x09;when we have more than one operator in an expression, then which operation should happened first is decided according to the operator precedence.
+
+
+
+for mathematical operators we use precedence we use as BODMAS(Bracket, order, division, Multiplication, Addition, Substraction).
+
+
+
+&#x09; 
+
+
+
 
 
 
