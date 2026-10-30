@@ -1251,7 +1251,49 @@ for mathematical operators we use precedence we use as BODMAS(Bracket, order, di
 
 
 
-&#x09; 
+
+
+
+
+#### Encapsulation:
+
+
+
+public:
+
+These data can be accessed out of your program and by default all the data we provided in the program are public data.
+
+
+
+private:(\_)
+
+These are used for name sake, to tell the user not to access the data publicly.
+
+
+
+protected:(\_\_)
+
+These data should not be accessed out of my program, we use \_\_ to declare a method or data as protected.
+
+
+
+
+#### Inheritance:
+
+
+
+The process of loading data and methods from parent class to child class is called inheritance.
+
+
+
+Types of inheritance:
+
+1. Single Inheritance:
+ Here one parent class has only one child class.
+2. Multiple Inheritance
+3. Multilevel Inheritance
+4. Hierarchical Inheritance
+5. Hybrid Inheritance
 
 
 
