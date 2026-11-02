@@ -36,19 +36,41 @@
 
 
 
-class BankAccount:
-    def __init__(self,name,accno,balance):
-        self.name=name
-        self.accno=accno
-        self.balance=balance
-    def deposit(self,amount):
-        if amount>1000:
-            self.balance+=amount
-        else:
-            print('Invalid Amount')
-class SavingAccount(BankAccount):
-    def __init__(self,name,accno,balance):
-        super().__init__(name, accno, balance)
-        self.intrest=0.05
-saving1=SavingAccount('venkat',5646785678,70)
-print(saving1.name)
+# class BankAccount:
+#     def __init__(self,name,accno,balance):
+#         self.name=name
+#         self.accno=accno
+#         self.balance=balance
+#     def deposit(self,amount):
+#         if amount>1000:
+#             self.balance+=amount
+#         else:
+#             print('Invalid Amount')
+#     def CheckBalance(self):
+#         print(f'Your curren balance is {self.balance}')
+# class SavingAccount(BankAccount):
+#     def __init__(self,name,accno,balance):
+#         super().__init__(name, accno, balance)
+#         self.intrest=0.05
+#     def intAdd(self):
+#         intAmt=self.balance*self.intrest
+#         self.balance+=intAmt
+#         print(f"{self.intrest*100} % has been added to ypur account")
+# saving1=SavingAccount('venkat',5646785678,70)
+# print(saving1.name,saving1.balance,saving1.accno)
+# saving1.intAdd()
+# saving1.CheckBalance()
+
+
+
+class Father:
+    def property(self):
+        print('10 Acres land')
+
+class Son(Father):
+    def property(self):
+        super().property()
+        print('2Bhk Flat')
+
+son1=Son()
+son1.property()
