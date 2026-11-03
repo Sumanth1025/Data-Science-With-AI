@@ -1278,6 +1278,7 @@ These data should not be accessed out of my program, we use \_\_ to declare a me
 
 
 
+
 #### Inheritance:
 
 
@@ -1289,7 +1290,7 @@ The process of loading data and methods from parent class to child class is call
 Types of inheritance:
 
 1. Single Inheritance:
- Here one parent class has only one child class.
+Here one parent class has only one child class.
 2. Multiple Inheritance
 3. Multilevel Inheritance
 4. Hierarchical Inheritance
@@ -1301,11 +1302,17 @@ Types of inheritance:
 
 
 
+* Hierarchical Inheritance:
+
+&#x09;Here one parent class has multiply child classes.
 
 
 
+WAP with a parent class vehicles and child classes 
 
 
+
+* Hybrid Inheritance
 
 
 
