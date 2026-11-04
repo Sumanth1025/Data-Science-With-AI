@@ -1302,23 +1302,135 @@ Here one parent class has only one child class.
 
 
 
-* Hierarchical Inheritance:
+super():
 
-&#x09;Here one parent class has multiply child classes.
-
-
-
-WAP with a parent class vehicles and child classes 
-
-
-
-* Hybrid Inheritance
+&#x09;it is used to run the parent class methods in child class
 
 
 
 
 
+2.Muliple Inheritance:
 
+Here for one child class there are more then one parent class.
+
+
+
+WAP to built smart watch by inherting watch and
+
+fitness features from watch and fitnessTracking app classes repectively.
+
+
+
+
+
+WAP to create flying cars by inheriting car features from car class and plane features from Plane Class.
+
+
+
+
+
+Multi Level Inheritance:
+
+&#x09;Here Frist class is inherited by second Class and second is inherited by third class and so on ....
+
+
+
+WAP to perform multi level inheritance for person, employee and manager
+
+
+
+
+
+Hierarchical Inheritance:
+
+
+
+Here one parent class has multiple child classes.
+
+
+
+eg:
+
+class Emp:
+
+
+
+WAP with a parent class vehicle class and child classes Cara and bike with common features fuel Capacities
+
+
+
+
+
+Hybrid Inheritance:
+
+&#x09;Using more then one type of inheritance together is called hybrid
+
+Inheritance.
+
+
+
+
+
+WAP to perform hierarchical an multiple Inheritance together.
+
+
+
+
+
+\*\*\*\* WAP PERFORM HYBRID INHERITANCE WITH CLASSES person, students, Employee, PhD Student.
+
+
+
+
+
+Most Repeated
+
+
+
+
+
+Polymorphism: poly - many and morph -forms
+
+
+
+&#x09;Same method behaving differently for objects of different 
+
+classes.
+
+
+
+type(): It tells us which class is used to create the object.
+
+
+
+
+
+Different types of polymorphism:
+
+Method Overriding:
+
+Changing the functionality of parent class method in child class method
+
+
+
+Relation b/w method overriding and polymorphism:
+
+&#x09;Using method overriding we are performing polymorphism.
+
+WAP 
+
+
+
+Duck Typing:
+
+&#x09;Using an object without considering which class is used to create that object is caller duck typing.
+
+
+
+Operator Overloading
+
+Magic methods
 
 
 
@@ -1329,4 +1441,34 @@ WAP with a parent class vehicles and child classes
 
 
 &#x09;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

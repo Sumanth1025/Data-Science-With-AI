@@ -82,68 +82,92 @@
 
 
 
-def reverse_odd(s):
-    result=""
-    odd=""
-    i=0
-    while i<len(s):
-        if i%2!= 0:
-            odd=s[i]+odd
-        else:
-            result+=s[i]
-        i+=1
-    final=""
-    i=0
-    j=0
-    while i<len(s):
-        if i%2==0:
-            final+=s[i]
-        else:
-            final+=odd[j]
-            j+=1
-        i+=1
-    return final
-s = input("Enter a string: ")
-print(reverse_odd(s))
+# class SmartDevice:
+#     def Poweron(self):
+#         print("Power on the device")
+
+#     def Poweroff(self):
+#         print("Device is turned off")
+
+
+# class SmartSecSystem(SmartDevice):
+#     def IntructionDetecton(self):
+#         print("Detects the instruction give ")
+
+#     def alarm(self):
+#         print("Ring the Alarm!!!")
+
+# class SamartAssistant(SmartDevice):
+#     def playMusic(self):
+#         print("playing Music")
+
+#     def vioceBrowsing(self):
+#         print("Searching for the answer to your question ")
+#         print("Answering your qurryg.....")
+
+
+# class RemoteControl(SmartSecSystem,SamartAssistant ):
+#     pass
+
+# remote1=RemoteControl()
+# remote1.Poweron()
+# remote1.IntructionDetecton()
+# remote1.alarm()
+# remote1.playMusic()
+# remote1.vioceBrowsing()
 
 
 
+class Person:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
 
-def reverse_odd(s):
-    result=""
-    odd=""
-    i=0
-    while i<len(s):
-        if i%2!=0:
-            odd=s[i]+odd
-        else:
-            result+=s[i]
-        i+=1
-    final=""
-    j=0
-    i=0
-    for ch in s:
-        if i%2==0:
-            final+=ch
-        else:
-            final+=odd[j]
-            j+=1
-        i+=1
-    return final
-s=input("Enter a string: ")
-print(reverse_odd(s))
+    def displayPerson(self):
+        print("Name:",self.name)
+        print("Age:",self.age)
+
+class Student(Person):
+    def __init__(self,name,age,scholarship,total_fees):
+        super().__init__(name,age)
+        self.scholarship=scholarship
+        self.total_fees=total_fees
+
+    def displayStudent(self):
+        self.displayPerson()
+        print("Total Fees:",self.total_fees)
+        print("Scholarship:",self.scholarship)
+        print("Remaining Fees:",self.total_fees -self.scholarship)
+
+class Employee(Person):
+    def __init__(self,name,age,salary):
+        super().__init__(name,age)
+        self.salary=salary
+
+    def displayEmployee(self):
+        self.displayPerson()
+        print("Salary:",self.salary)
+
+class PHDStudent(Student,Employee):
+    def __init__(self,name,age,scholarship,salary,total_fees):
+        Person.__init__(self,name,age)
+        self.scholarship=scholarship
+        self.salary=salary
+        self.total_fees=total_fees
+
+    def displayPHDStudent(self):
+        self.displayPerson()
+        print("Total Fees:",self.total_fees)
+        print("Scholarship:",self.scholarship)
+        print("Remaining Fees:",self.total_fees - self.scholarship)
+        print("Salary:",self.salary)
 
 
-
-
-def reverse_odd(s):
-    odd=""
-    result=""
-    i=0
-    while i<len(s):
-        if i%2!=0:
-            odd=s[i]+odd
-        i+=1
-    return "".join(s[i] if i%2==0 else odd[i//2] for i in range(len(s)))
-s=input("Enter a string: ")
-print(reverse_odd(s))
+s1 = Student("Rahul",21,25000,100000)
+s1.displayStudent()
+print("-"*50)
+e1 = Employee("Kiran",25,50000)
+e1.displayEmployee()
+print("-"*50)
+p1 = PHDStudent("Sumanth",24,40000,30000,120000)
+p1.displayPHDStudent()

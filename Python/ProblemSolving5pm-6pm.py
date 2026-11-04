@@ -125,42 +125,146 @@
 
 
 
-def revthesen(string):
-    reverse=''
-    word=''
+# def revthesen(string):
+#     reverse=''
+#     word=''
+#     i=0
+#     while i<len(string):
+#         if string[i]==' ':
+#             reverse=word+' '+reverse
+#             word=''
+#         else:
+#             word+=string[i]
+#         i+=1
+#     reverse=word+' '+reverse
+#     print(reverse)
+# revthesen("python is easy")
+
+
+
+
+# def revthesen(string):
+#     reverse=''
+#     word=''
+#     i=0
+#     while i<len(string):
+#         if string[i] == ' ':
+#             j=len(word)-1
+#             while j>=0:
+#                 reverse+=word[j]
+#                 j-=1
+#             reverse+=' '
+#             word=''
+#         else:
+#             word+=string[i]
+#         i+=1
+#     j=len(word)-1
+#     while j>=0:
+#         reverse+=word[j]
+#         j-=1
+#     print(reverse)
+# revthesen("python is easy")
+
+
+
+
+
+# def reverse_odd(s):
+#     result=""
+#     odd=""
+#     i=0
+#     while i<len(s):
+#         if i%2!= 0:
+#             odd=s[i]+odd
+#         else:
+#             result+=s[i]
+#         i+=1
+#     final=""
+#     i=0
+#     j=0
+#     while i<len(s):
+#         if i%2==0:
+#             final+=s[i]
+#         else:
+#             final+=odd[j]
+#             j+=1
+#         i+=1
+#     return final
+# s = input("Enter a string: ")
+# print(reverse_odd(s))
+
+
+
+
+# def reverse_odd(s):
+#     result=""
+#     odd=""
+#     i=0
+#     while i<len(s):
+#         if i%2!=0:
+#             odd=s[i]+odd
+#         else:
+#             result+=s[i]
+#         i+=1
+#     final=""
+#     j=0
+#     i=0
+#     for ch in s:
+#         if i%2==0:
+#             final+=ch
+#         else:
+#             final+=odd[j]
+#             j+=1
+#         i+=1
+#     return final
+# s=input("Enter a string: ")
+# print(reverse_odd(s))
+
+
+
+
+def reverse_odd(s):
+    odd=""
     i=0
-    while i<len(string):
-        if string[i]==' ':
-            reverse=word+' '+reverse
-            word=''
-        else:
-            word+=string[i]
+    while i<len(s):
+        if i%2!=0:
+            odd=s[i]+odd
         i+=1
-    reverse=word+' '+reverse
-    print(reverse)
-revthesen("python is easy")
+    return "".join(s[i] if i%2==0 else odd[i//2] for i in range(len(s)))
+s=input("Enter a string:")
+print(reverse_odd(s))
 
 
 
 
-def revthesen(string):
-    reverse=''
-    word=''
-    i=0
-    while i<len(string):
-        if string[i] == ' ':
-            j=len(word)-1
-            while j>=0:
-                reverse+=word[j]
-                j-=1
-            reverse+=' '
-            word=''
-        else:
-            word+=string[i]
-        i+=1
-    j=len(word)-1
-    while j>=0:
-        reverse+=word[j]
-        j-=1
-    print(reverse)
-revthesen("python is easy")
+# def compress(s):
+#     result=""
+#     i=0
+#     while i<len(s):
+#         count=1
+#         while i+1<len(s) and s[i]==s[i + 1]:
+#             count+=1
+#             i+=1
+#         result+=s[i]+str(count)
+#         i+=1
+#     return result
+# s="aaabbccccdde"
+# print(compress(s))
+
+
+
+
+# def decompress(s):
+#     result = ""
+#     i = 0
+#     while i<len(s):
+#         ch=s[i]
+#         i+=1
+#         count=0
+#         while i<len(s) and '0'<=s[i]<='9':
+#             count = count*10+int(s[i])
+#             i+=1
+#         result+=ch*count
+#     return result
+# s="a3b2c4d2e1"
+# print(decompress(s))
