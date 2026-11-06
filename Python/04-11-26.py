@@ -47,34 +47,63 @@
 
 
 
-class Duck:
-    def sound(self):
-        retuen 'Duck Quacks'
-    def walk(self):
-        print('It walks')
+# class Duck:
+#     def sound(self):
+#         return 'Duck Quacks'
+#     def walk(self):
+#         return 'It walks'
 
-class Horse:
-    def sound(self):
-        print('It Neighs')
-    def walk(self):
-        print('It runs')
+# class Horse:
+#     def sound(self):
+#         return 'It Neighs'
+#     def walk(self):
+#         return 'It runs'
 
-class Lion:
-    def sound(self):
-        print('It roars')
-    def walk(self):
-        print('It walks without making any sound')
+# class Lion:
+#     def sound(self):
+#         return 'It roars'
+#     def walk(self):
+#         return 'It walks without making any sound'
 
-duck1=Duck()
+# duck1=Duck()
 
-horse1=Horse()
+# horse1=Horse()
 
-lion1=Lion()
+# lion1=Lion()
 
-objs=[duck1,horse1,lion1]
+# objs=[duck1,horse1,lion1]
 
-def verification():
-    for obj in objs:
-        if obj.sound() and obj.walk():
-            print(f'{obj} is a duck')
-verification()
+# def verification():
+#     for obj in objs:
+#         if obj.sound() and obj.walk():
+#             print('It is a duck')
+# verification()
+
+
+
+# class cash:
+#     def payment(self):
+#         return 'pay by cash'
+# class upi:
+#     def payment(self):
+#         return 'pay by upi'
+# class paypal:
+#     def payment(self):
+#         return 'pay by paypal'
+# class card:
+#     def payment(self):
+#         return 'pay by credit card'
+# cash1=cash()
+# upi1=upi()
+# paypal1=paypal()
+# card1=card()
+
+# obj1=[cash1,upi1,paypal1,card1]
+
+# def verifaction():
+#     for obj in obj1:
+#         if obj.payment():
+#             print('It is accepted payment method')
+#         else:
+#             print('It is not a accepted method')
+# verifaction()
