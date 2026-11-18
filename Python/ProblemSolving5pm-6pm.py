@@ -465,7 +465,6 @@
 # print(numtorom(2578))
 # print(numtorom(1995))
 
-                                                                        #"editor.inlineSuggest.enabled": false,
 
 
 # def romtonum(Rom):
@@ -490,20 +489,74 @@
 
 
 # sort the digits of a number in ascending order
-def numsort(num):
-    freq=[0]*10
-    sortednum=0
-    temp=num
-    while temp>0:
-        digit=temp%10
-        freq[digit]+=1
-        temp//=10
+# def numsort(num):
+#     freq=[0]*10
+#     sortednum=0
+#     temp=num
+#     while temp>0:
+#         digit=temp%10
+#         freq[digit]+=1
+#         temp//=10
+#     i=0
+#     while i<len(freq):
+#         if freq[i]>0:
+#             sortednum=sortednum*10+i
+#             freq[i]-=1
+#             i-=1
+#         i+=1
+#     return sortednum
+# print(numsort(1995))
+
+
+
+# def valid_parentheses(s):
+#     opening=[0,0,0]
+#     closing=[0,0,0]
+#     i=0
+#     while i<len(s):
+#         if s[i]=='(':
+#             opening[0]+=1
+#         elif s[i]==')':
+#             closing[0]+=1
+#         elif s[i]=='{':
+#             opening[1]+=1
+#         elif s[i]=='}':
+#             closing[1]+=1
+#         elif s[i]=='[':
+#             opening[2]+=1
+#         elif s[i]==']':
+#             closing[2]+=1
+#         i+=1
+#     return opening==closing
+# s = "(((({{{{[[[))))}}}}]]]"
+# print(valid_parentheses(s))
+
+
+
+
+
+
+def shortest_sum(arr,target):
+    dp=[None]*(target+1)
+    dp[0]=[]
+    for num in arr:
+        j=target
+        while j>=num:
+            if dp[j-num] is not None:
+                temp=dp[j-num]+[num]
+                if dp[j] is None or len(temp)<len(dp[j]):
+                    dp[j]=temp
+            j-=1
+    if dp[target] is None:
+        return -1
+    print(dp[target])
+    print(len(dp[target]))
+    total=0
     i=0
-    while i<len(freq):
-        if freq[i]>0:
-            sortednum=sortednum*10+i
-            freq[i]-=1
-            i-=1
+    while i<len(dp[target]):
+        total+=dp[target][i]
         i+=1
-    return sortednum
-print(numsort(1995))
+    print(total)
+arr=[1,8,15,5,17,6]
+target=22
+shortest_sum(arr,target)

@@ -1394,7 +1394,7 @@ Polymorphism: poly - many and morph -forms
 
 
 
-&#x09;Same method behaving differently for objects of different 
+&#x09;Same method behaving differently for objects of different
 
 classes.
 
@@ -1418,13 +1418,17 @@ Relation b/w method overriding and polymorphism:
 
 &#x09;Using method overriding we are performing polymorphism.
 
-WAP 
+WAP
 
 
 
 Duck Typing:
 
 &#x09;Using an object without considering which class is used to create that object is caller duck typing.
+
+
+
+If it quacks like duck and walks like duck then it is a duck.
 
 
 
@@ -1436,39 +1440,95 @@ Magic methods
 
 
 
+Exceptional Handling:
+
+&#x09;Errors the mistakes happened in the program during compile time.
+
+
+
+&#x09;Exceptions are the errors what are detected during run time.
+
+
+
+&#x09;Exception Handling is the process of handling the run time error so that my program won't get crashed because of that error.
+
+
+
+To handle our exception we use two keywords: try and except
+
+
+
+syntax:
+
+&#x09;try:
+
+&#x09;	#code that raise logical errors
+
+&#x09;except errorname:
+
+&#x09;	#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 &#x09;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

@@ -35,3 +35,67 @@ Power desktop:- It is used like cleaning transforming, calculating, analysing th
 
 Power bi service:- It is used to publish the reports to the public like users.
 
+
+
+
+
+
+
+## Conditional column: It create a new column based on a condition
+
+desktop --> query --> Add column --> conditional column
+
+
+
+
+
+
+
+Choose column: It is used to select or choose the particular column from the table
+
+\------------------------------------------------------------------------------------------------------------
+
+desktop --> query --> home --> choose column
+
+
+
+
+
+split columns:
+
+It is used to separate data when itis condined with all the other data in single column.
+
+
+
+
+
+
+
+\-------------------------
+
+
+
+### Power pivot:
+
+&#x09;It is used to summarized the data what we have to analyse
+
+
+
+
+
+DAX:(Data Analysis Expression):
+
+&#x09;It is used to perform calculation data to create some dynamic dashboard.
+
+Here we have two types:
+
+* calculate column:
+
+&#x09;It perform some calculation on columns, The operations perform in row by row.
+
+
+
+* measure:-
+
+&#x09;It perform aggregated functions on column. the operation work on columns 
+
