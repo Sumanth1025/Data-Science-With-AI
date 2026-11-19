@@ -8,8 +8,8 @@
 #         actualsum+=series[i]
 #         i+=1
 #     number=rangesum-actualsum
-#     return f'The missing number is: cl{number}'
-# list1=[1,2,4,5,6,7,8,9,10]
+#     return f'The missing number is:{number}'
+# list1=[1,2,3,4,5,6,7,8,9]
 # print(missing(list1))
 
 
@@ -41,7 +41,6 @@
 #     remdig=n%(10**(count-1))
 #     rotdig=remdig*10+firdig
 #     return rotdig
-#     # return f'{rotdig}'
 # print(firsttolast(1234))
 
 
@@ -170,69 +169,26 @@
 
 
 # def reverse_odd(s):
-#     result=""
-#     odd=""
-#     i=0
-#     while i<len(s):
-#         if i%2!= 0:
-#             odd=s[i]+odd
+#     odd = ""
+#     i = 0
+#     while i < len(s):
+#         if i % 2 != 0:
+#             odd = s[i] + odd
+#         i += 1
+#     result = ""
+#     i = 0
+#     j = 0
+#     while i < len(s):
+#         if i % 2 == 0:
+#             result += s[i]
 #         else:
-#             result+=s[i]
-#         i+=1
-#     final=""
-#     i=0
-#     j=0
-#     while i<len(s):
-#         if i%2==0:
-#             final+=s[i]
-#         else:
-#             final+=odd[j]
-#             j+=1
-#         i+=1
-#     return final
+#             result += odd[j]
+#             j += 1
+#         i += 1
+#     return result
 # s = input("Enter a string: ")
 # print(reverse_odd(s))
 
-
-
-
-# def reverse_odd(s):
-#     result=""
-#     odd=""
-#     i=0
-#     while i<len(s):
-#         if i%2!=0:
-#             odd=s[i]+odd
-#         else:
-#             result+=s[i]
-#         i+=1
-#     final=""
-#     j=0
-#     i=0
-#     for ch in s:
-#         if i%2==0:
-#             final+=ch
-#         else:
-#             final+=odd[j]
-#             j+=1
-#         i+=1
-#     return final
-# s=input("Enter a string: ")
-# print(reverse_odd(s))
-
-
-
-
-# def reverse_odd(s):
-#     odd=""
-#     i=0
-#     while i<len(s):
-#         if i%2!=0:
-#             odd=s[i]+odd
-#         i+=1
-#     return "".join(s[i] if i%2==0 else odd[i//2] for i in range(len(s)))
-# s=input("Enter a string:")
-# print(reverse_odd(s))
 
 
 
@@ -249,6 +205,27 @@
 #         i+=1
 #     return result
 # s="aaabbccccdde"
+# print(compress(s))
+
+
+
+
+
+# def compress(s):
+#     result = ""
+#     i = 0
+#     while i < len(s):
+#         if s[i] not in result:
+#             count = 0
+#             j = 0
+#             while j < len(s):
+#                 if s[i] == s[j]:
+#                     count += 1
+#                 j += 1
+#             result += s[i] + str(count)
+#         i += 1
+#     return result
+# s = "aaaabbabaaccd"
 # print(compress(s))
 
 
@@ -408,9 +385,9 @@
 #     count=[0]*26
 #     i = 0
 #     while i < len(a):
-#         count[ord(a[i]) - 97] += 1
-#         count[ord(b[i]) - 97] -= 1
-#         i += 1
+#         count[ord(a[i])-97] += 1
+#         count[ord(b[i])-97] -= 1
+#         i+=1
 #     return count==[0]*26
 # def find_anagrams(sentence,target):
 #     result=[]
@@ -536,27 +513,353 @@
 
 
 
-def shortest_sum(arr,target):
-    dp=[None]*(target+1)
-    dp[0]=[]
-    for num in arr:
-        j=target
-        while j>=num:
-            if dp[j-num] is not None:
-                temp=dp[j-num]+[num]
-                if dp[j] is None or len(temp)<len(dp[j]):
-                    dp[j]=temp
-            j-=1
-    if dp[target] is None:
-        return -1
-    print(dp[target])
-    print(len(dp[target]))
-    total=0
-    i=0
-    while i<len(dp[target]):
-        total+=dp[target][i]
-        i+=1
-    print(total)
-arr=[1,8,15,5,17,6]
-target=22
-shortest_sum(arr,target)
+# def shortest_sum(arr,target):
+#     dp=[None]*(target+1)
+#     dp[0]=[]
+#     for num in arr:
+#         j=target
+#         while j>=num:
+#             if dp[j-num] is not None:
+#                 temp=dp[j-num]+[num]
+#                 if dp[j] is None or len(temp)<len(dp[j]):
+#                     dp[j]=temp
+#             j-=1
+#     if dp[target] is None:
+#         return -1
+#     print(dp[target])
+#     print(len(dp[target]))
+#     total=0
+#     i=0
+#     while i<len(dp[target]):
+#         total+=dp[target][i]
+#         i+=1
+#     print(total)
+# arr=[1,8,15,5,17,6]
+# target=22
+# shortest_sum(arr,target)
+
+
+
+
+
+
+
+# n=int(input('Enter the number:'))
+                                                #Left alinged
+# for i in range(1,n+1):
+#     result=''
+#     for j in range(1,i+1):
+#         result+='* '
+#     print(result)
+
+
+# for i in range(1,n+1):
+#     result=''
+#     for j in range(1,(n+1)-i+1):
+#         result+='* '
+#     print(result)
+
+
+
+                                                #right alinges
+# #right alined trinagle:
+# for i in range (1,n+1):
+#     r=" "
+#     for k in range(1,(n+1)-i):
+#         r+=" "
+#     for j in range(1,i+1):
+#             r+="*"
+#     print(r)
+
+# print('-'*50)
+
+    
+# for i in range (1,n+1):
+#     r=" "
+#     for k in range(1,i+1):
+#         r+=" "
+#     for j in range(1,(n+1)-i+1):
+#             r+="*"
+#     print(r)
+
+
+
+# for i in range (1,n+1):
+#     r=" "
+#     for k in range(1,(n+1)-i):
+#         r+=" "
+#     for j in range(1,i+1):
+#             r+="* "
+#     print(r)
+
+
+
+# for i in range (1,n+1):
+#     r=" "
+#     for k in range(1,i+1):
+#         r+=" "
+#     for j in range(1,(n+1)-i+1):
+#             r+="* "
+#     print(r)
+
+
+
+
+
+# # Upper half
+# for i in range(1, n+1):
+#     result = ''
+#     for j in range(1, n-i+1):
+#         result += '  '
+#     for j in range(1, 2*i):
+#         result += '* '
+#     print(result)
+# # Lower half
+# for i in range(n-1, 0, -1):
+#     result = ''
+#     for j in range(1, n-i+1):
+#         result += '  '
+#     for j in range(1, 2*i):
+#         result += '* '
+#     print(result)
+
+
+
+
+
+
+# count=0
+# for i in range(1,6):
+#     rows=''
+    
+#     for j in range(1,6-i):
+#         rows+=' ' 
+#     for k in range(1,i+1):
+#         count+=1
+#         rows+=str(count)+' '
+#     print(rows)
+
+
+
+
+
+
+
+# ordVal=65
+# for i in range(1,6):
+#     rows=''
+    
+#     for j in range(1,i):
+#         rows+=' ' 
+#     for k in range(1,6-i+1):
+       
+#         rows+=chr(ordVal)+' '
+#         ordVal+=1
+#     print(rows)
+
+
+
+
+
+# # Dimond
+# for i in range(1,6):
+#     rows=''
+#     count=0
+#     for j in range(1,6-i):
+#         rows+=' ' 
+#     for k in range(1,i+1):
+#         count+=1
+#         rows+=str(count)+' '
+#     print(rows)
+# for i in range(1,6):
+#     rows=''
+#     count=0
+#     for j in range(1,i+1):
+#         rows+=' ' 
+#     for k in range(1,6-i):
+#         count+=1
+#         rows+=str(count)+' '
+#     print(rows)
+
+
+
+
+
+
+
+# ordVal=65
+
+# for i in range(1,6):
+#     rows=''
+    
+#     for j in range(1,6-i+1):
+#         rows+=' ' 
+#     for k in range(1,i):
+       
+#         rows+=chr(ordVal)+' '
+#         ordVal+=1
+#     print(rows)
+# for i in range(1,6):
+#     rows=''
+    
+#     for j in range(1,i):
+#         rows+=' ' 
+#     for k in range(1,6-i+1):
+       
+#         rows+=chr(ordVal)+' '
+#         ordVal+=1
+#     print(rows)
+
+
+
+
+
+
+
+
+
+
+# for i in range(1,n+1):
+#     result=''
+#     for j in range(i):
+#         result+='*'
+#     for j in range(2*(n-i)):
+#         result+=' '
+#     for j in range(i):
+#         result+='*'
+#     print(result)
+# for i in range(n-1,0,-1):
+#     result=''
+#     for j in range(i):
+#         result+='*'
+#     for j in range(2*(n-i)):
+#         result+=' '
+#     for j in range(i):
+#         result+='*'
+#     print(result) 
+
+
+
+
+# def numsort(num):
+#     digits = []
+#     temp = num
+#     while temp > 0:
+#         digit = temp % 10
+#         digits += [digit]
+#         temp //= 10
+#     i = 0
+#     while i < len(digits):
+#         j = 0
+#         while j<len(digits)-i-1:
+#             if digits[j] > digits[j + 1]:
+#                 temp = digits[j]
+#                 digits[j] = digits[j + 1]
+#                 digits[j + 1] = temp
+#             j += 1
+#         i += 1
+#     # Convert digits into number
+#     result = 0
+#     i = 0
+#     while i < len(digits):
+#         result = result * 10 + digits[i]
+#         i += 1
+#     return result
+# print(numsort(1995))
+
+
+
+
+
+def number_to_words(n):
+    ones = ["", "One", "Two", "Three", "Four",
+            "Five", "Six", "Seven", "Eight", "Nine",
+            "Ten", "Eleven", "Twelve", "Thirteen",
+            "Fourteen", "Fifteen", "Sixteen",
+            "Seventeen", "Eighteen", "Nineteen"]
+    tens = ["Twenty", "Thirty", "Forty",
+            "Fifty", "Sixty", "Seventy", "Eighty",
+            "Ninety"]
+    if n == 0:
+        return "Zero"
+    if n < 20:
+        return ones[n]
+    if n < 100:
+        return tens[(n // 10)-2] + " " + ones[n % 10]
+    if n < 1000:
+        return (ones[n // 100]+" Hundred "+number_to_words(n % 100)).strip()
+    if n < 100000:
+        return (number_to_words(n // 1000)+" Thousand "+number_to_words(n % 1000)).strip()
+    if n < 10000000:
+        return (number_to_words(n // 100000)+" Lakh "+number_to_words(n % 100000)).strip()
+    if n < 1000000000:
+        return (number_to_words(n // 10000000)+" Crore "+number_to_words(n % 10000000)).strip()
+n = int(input("Enter number: "))
+print(number_to_words(n))
+
+
+
+
+
+
+
+
+def word_to_number(s):
+    ones = ["Zero", "One", "Two", "Three", "Four",
+            "Five", "Six", "Seven", "Eight", "Nine",
+            "Ten", "Eleven", "Twelve", "Thirteen",
+            "Fourteen", "Fifteen", "Sixteen",
+            "Seventeen", "Eighteen", "Nineteen"]
+
+    tens = ["Twenty", "Thirty", "Forty", "Fifty",
+            "Sixty", "Seventy", "Eighty", "Ninety"]
+
+    total = 0
+    current = 0
+    word = ""
+    i = 0
+
+    while i <= len(s):
+        if i == len(s) or s[i] == " ":
+
+            if word != "":
+                j = 0
+
+                while j < len(ones):
+                    if word == ones[j]:
+                        current += j
+                    j += 1
+
+                j = 0
+                while j < len(tens):
+                    if word == tens[j]:
+                        current += (j + 2) * 10
+                    j += 1
+
+                if word == "Hundred":
+                    current *= 100
+
+                elif word == "Thousand":
+                    total += current * 1000
+                    current = 0
+
+                elif word == "Lakh":
+                    total += current * 100000
+                    current = 0
+
+                elif word == "Crore":
+                    total += current * 10000000
+                    current = 0
+
+                word = ""
+
+        else:
+            word += s[i]
+
+        i += 1
+
+    return total + current
+
+
+s = input("Enter number in words: ")
+print(word_to_number(s))
