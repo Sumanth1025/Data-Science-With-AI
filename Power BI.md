@@ -97,5 +97,29 @@ Here we have two types:
 
 * measure:-
 
-&#x09;It perform aggregated functions on column. the operation work on columns 
+&#x09;It perform aggregated functions on column. the operation work on columns
+
+
+
+&#x09;aggregated Function on measure:-
+
+&#x09;measure:- agg(tablename\[columnname])
+
+
+
+aggregated X Functions:-
+
+&#x09;It is the combination of calculate column measure.S 
+
+
+
+
+
+
+
+
+
+
+
+
 
